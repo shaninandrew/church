@@ -1,0 +1,23 @@
+<!Doctype HTML>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Тестовая форма</title>  
+    <script src="/module_need_data/index.js"></script> <!-- Список обрядов-->
+    <script src="/module_need/module_need.js"></script>
+    <link rel="stylesheet" href="/module_need_css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.9, maximum-scale=1.2">
+</head>
+
+<body>
+ Добро пожаловать на сайт ...<br>
+Тут есть необходимая информация....
+<div class=Need_Form id=Need_Form_Place>Loading... </div>
+
+<script defer>
+   need_app = new Need_Application ("/module_need_data/akafist.json", "Need_Form_Place")
+</script>
+
+
+</body>
+</html>

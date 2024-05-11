@@ -1,0 +1,144 @@
+/* Кастомный стиль */
+body 
+{
+  
+}
+
+body Need_Form:hover::before
+{
+    filter:inherit blur(4px);
+    background: gray;
+}
+
+
+.Need_Form 
+{
+   
+    filter: blur(0);
+    width: 50vw;
+
+    min-width: 600px;
+    max-width: 800px;
+
+    min-height: 300px;
+    height: 60vh;
+    background: #d8fccf;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-size: 12pt;
+    margin: 5px 5px 5px 5px;
+    
+    border-radius: 10px 10px 10px 10px;
+    align-content: center ;
+    align-items: center;
+    box-shadow: 19px 15px 8px 0px rgba(185, 206, 221, 0.2);
+    padding: 10px 10px 10px 10px;
+    
+    border-color: hsl(125, 78%, 23%);
+    border-style: double 2px;
+    border: 2px 2px 2px 2px;
+
+    position: relative;
+    left:30%;
+    top:30%;
+    
+}
+
+
+.Need_Form:hover
+{
+    z-index: 10;
+     box-shadow: 19px 15px 8px 3px rgba(40, 80, 42, 0.2);
+     border-color: hsl(125, 78%, 23%);
+     min-height: 300px;
+}
+
+.Need_Submit
+{
+    box-sizing:border-box;
+
+    filter: blur(0);
+    min-width: 300px;
+    min-height: 40px;
+    height: 1em;
+    border-radius: 6px 6px 6px 6px;
+    cursor: pointer;
+    background: hsl(125, 73%, 35%);
+    color:#cdf5d0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-size: 12pt;
+    align-content: center;
+    
+}
+
+.need_input
+{
+    box-sizing:border-box;
+    filter: blur(0);
+    min-width: 100px;
+    min-height: 40px;
+    height: 1em;
+
+    margin: 5px 5px 5px 5px;
+    border-radius: 6px 6px 6px 6px;
+    cursor: pointer;
+    border-color: hsl(125, 73%, 35%);
+    background:#ffffff;
+    color:black;
+    width: 350px;
+    
+    padding: 5px 0px 0px 5px;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-size: 12pt;
+    align-content: center;
+}
+
+.need_input:hover
+{
+    box-shadow: 8px 8px 8px 2px rgba(185, 206, 221, 0.2);
+    border-color: hsl(125, 78%, 23%);
+}
+
+
+.need_label
+{
+    box-sizing:border-box;
+    
+    filter: blur(0);
+    min-width: 100px;
+    width: 200px;
+    min-height: 40px;
+    margin: 5px 5px 5px 5px;
+   
+    /*background:#ffffff;*/
+    color:black;
+   
+    height: 1em;
+    vertical-align:center;
+    align-content: center;
+    padding-left: 10px;
+    
+}
+
+.need_grid
+{
+    display: flex;  
+    flex-flow: row wrap;
+    width: 100%;
+    min-height: 40px;
+}
+
+.need_grid:hover
+{
+  /*background: #c0f5b9;*/
+}
+
+.need_button_placeholder
+{
+    width: 100%;
+    align-content: center;
+    text-align: center;;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
