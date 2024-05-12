@@ -28,3 +28,11 @@
                 "Price":число
         }
 4. Конфигурация автоматически измениться с обновлением страницы формы.
+5. Форма присылает на сервер запросы следующего вида
+
+        http://localhost:21492/index.html?
+        need_ritual=/module_need_data/speakout.json
+        &need_option=Тайная+на+17:00
+        &need_place=Собор+Архангела+Михаила
+        &need_who=Илья
+        &need_price=500
