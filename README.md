@@ -14,8 +14,11 @@
 # Использование модуля
 
 На странице необходимо создать блок   
+
         <div class=Need_Form id=Need_Form_Place>Loading... </div>
+        
 и создать скрипт подключения "приложения" с передачей 2 параметров - путь к одному из модулей и id блока, где будет генериться форма классом приложения:
+
         <script defer>
            need_app = new Need_Application ("/module_need_data/akafist.json", "Need_Form_Place")
         </script>
