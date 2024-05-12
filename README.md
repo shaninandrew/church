@@ -22,9 +22,6 @@
         <script defer>
            need_app = new Need_Application ("/module_need_data/akafist.json", "Need_Form_Place")
         </script>
-Пример:
-<div class=Need_Form id=Need_Form_Place>Loading... </div>
-<script defer>   need_app = new Need_Application ("/module_need_data/akafist.json", "Need_Form_Place");</script>
 
 # Добавление новых пунктов меню
 1. Добавить в файл module_need_data/index.js в переменной Need_catalog информацию о новом пункте в массив названий Names и путь к json файлу со связанной информацией Urls.
